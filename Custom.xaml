@@ -1,5 +1,5 @@
 <local:MyHint Margin="0,0,0,15" Height="35" Text="公告为beta版本，如有做的不好的地方，请您指教！" IsWarn="False" />
-<local:MyButton Margin="390,0,0,0" Width="200" Height="40" EventType="刷新主页" Text="开发测试方便按钮(" ToolTip="看起来没用的按钮（" />
+<!--<local:MyButton Margin="390,0,0,0" Width="200" Height="40" EventType="刷新主页" Text="开发测试方便按钮(" ToolTip="看起来没用的按钮（" />-->
 
 <local:MyCard Title="欢迎（要说的话，看看）" Margin="0,0,0,0" CanSwap="True" IsSwaped="False" >
     <StackPanel Margin="25,40,23,15">
@@ -87,7 +87,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="服务器命令列表" Margin="0,20,0,0" CanSwap="True">
+<local:MyCard Title="服务器命令列表" Margin="0,20,0,0" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
     <TextBlock FontSize="16" Margin="0,8,0,0"
         Text="/reg:用来注册，详见卡片：《如何进入服务器》" />
@@ -122,7 +122,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="服务器开放机器领地名列表" CanSwap="True" IsSwaped="False" Margin="0,20,0,0">
+<local:MyCard Title="服务器开放机器领地名列表" CanSwap="True" IsSwaped="True" Margin="0,20,0,0">
     <StackPanel Margin="25,40,23,15">
     <TextBlock FontSize="16" Margin="0,8,0,0"
         Text="/res tp xiaoheita :主人---sweetness 机器：小黑塔" />
@@ -130,7 +130,11 @@
         Text="/res tp zhurenta :主人---Badnng 机器：猪人塔" />
     <TextBlock FontSize="16" Margin="0,8,0,0"
         Text="/res tp gaosuronglu :主人---Badnng 机器：高速熔炉组" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="" />
     </StackPanel>
 </local:MyCard>
+
+<local:MyHint IsWarn="False" Text="公告维护者：Badnng，整活不是我搞" Margin="0,20,0,0" Height="40" />
+
+    <StackPanel Margin="0,10,0,20" HorizontalAlignment="Center" Orientation="Horizontal">
+      <local:MyButton Width="300" Height="35" Padding="13,0,13,0" Text="刷新" EventType="刷新主页" Margin="0,10,0,0" ToolTip="点击刷新公告栏" />
+    </StackPanel>
