@@ -18,13 +18,13 @@
     <StackPanel Margin="25,40,23,15">
         <Image Source="https://badnngdwstationcmcc.top/%E6%B4%BB%E5%8A%A8title.png" Height="150" Width="Auto" Stretch="Uniform" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontSize="15"
-                    Text="大家好，很高兴能和大家汇报一下这次的活动的告知和安排，这次音乐节活动时间是7.21的19:30分，是有史三年来的第一次返厂，而且转到了服务器里面举行，全程直播，也很高兴能与大家一起欢声笑语">
+                    Text="大家好，很高兴能和大家汇报一下这次的活动的告知和安排，这次音乐节活动时间是7.21的19:30分，是有史三年来的第一次返厂，而且转到了服务器里面举行，全程直播，也很高兴能与大家一起欢声笑语" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontSize="15"
-                    Text="首先，请大家保持好活动场地的秩序，秩序文档将会在近几天放在公告和群内，敬请关注~">
+                    Text="首先，请大家保持好活动场地的秩序，秩序文档将会在近几天放在公告和群内，敬请关注~" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontSize="15"
-                    Text="其次,请大家在活动语音内不允许粗语和在直播过程中玩家做出不雅动作，如展示不适宜内容，发布政治发言和图标，不建议挡住摄像头（你挡住了怎么看啊）">
+                    Text="其次,请大家在活动语音内不允许粗语和在直播过程中玩家做出不雅动作，如展示不适宜内容，发布政治发言和图标，不建议挡住摄像头（你挡住了怎么看啊）" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontSize="15"
-                    Text="最后非常开心大家能来到我们服务器里面游玩~我们将不断关注服务器玩家内的游戏体验！">
+                    Text="最后非常开心大家能来到我们服务器里面游玩~我们将不断关注服务器玩家内的游戏体验！" />
         <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
