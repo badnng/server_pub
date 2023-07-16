@@ -10,7 +10,16 @@
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="15"
                     Text="让您不用跑来跑去找教程·问群里的任何人（包括我）进行登录" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,15" FontSize="15"
-                    Text="同时感谢您支持我们的服务器，如果需要赞助，可以在最后一张卡片（赞助我们）一栏打开赞助页面！" />
+                    Text="同时感谢您支持我们的服务器，如果觉得不错想支持的话，可以在下方按钮打开赞助页面！" />
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*" />
+            <ColumnDefinition Width="1*">
+        </Grid.ColumnDefinitions>
+
+        <local:MyButton Grid.Column="0" Margin="0,10,0,0" Text="赞助我们！(爱发电)" EventType="打开网页" EventData="https://afdian.net/a/ZX_Wu_Sheng" Height="40" />
+        <local:MyButton Grid.Column="1" Margin="0,10,0,0" Text="赞助我们！(bilibili)" EventType="打开网页" EventData="https://space.bilibili.com/18287541" Height="40" />
+        </Grid>
     </StackPanel>
 </local:MyCard>
 
