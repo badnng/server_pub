@@ -16,7 +16,7 @@
 
 <local:MyCard Title="服务器活动公告" Margin="0,10,0,0" CanSwap="True" IsSwaped="False">
     <StackPanel Margin="25,40,23,15">
-        <Image Source="">
+        <Image Source="https://badnngdwstationcmcc.top/%E6%B4%BB%E5%8A%A8title.png">
     </StackPanel>
 </local:MyCard>
 
