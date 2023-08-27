@@ -60,87 +60,32 @@
 </local:MyCard>
 
 
-<local:MyCard Title="如何进入服务器(仅限Java版本)" Margin="0,20,0,0" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="如何进入服务器" Margin="0,20,0,0" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Text="警告：此教程仅适用于Java版本的Minecraft，基岩版请查看文档。" IsWarn="True" Height="35" />
+        <local:MyHint Text="警告：此教程仅适用于Java版本的Minecraft，无基岩版本!" IsWarn="True" Height="35" />
         <StackPanel Margin="25,20,23,15">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
-
-            <local:MyButton Grid.Column="0" Height="40" Text="点击查看文档" EventType="打开网页" EventData="https://docs.qq.com/doc/DQVpHQ3lRUWRLVVBH" />
-
         </Grid>
+
     </StackPanel>
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="首先，你要有一台能正常运行Minecraft Java Edition 1.20/1.20.1的电脑（需要搭载Java 17版本及以上才能启动1.20/1.20.1版本）" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontWeight="Bold" FontSize="30"
-                    Text="离线登录" />
+                    Text="首先，你要有一台能正常运行Minecraft Java Edition 1.20.1的电脑（建议使用Java 18版本启动整合包）" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="1. 首先，你要下载好对应的版本（1.20/1.20.1都可以，模组不限，但不包括使用hacked客户端进行作弊）" />
+                    Text="1. 首先，你要下载好群里的汉化整合包" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="2. 其次，需要有个不包含特殊字符且不与正版用户名称冲突的用户名称（例如badnng，Badnng_）" />
+                    Text="2. 其次，需要有个不包含特殊字符的用户名称（例如badnng，Badnng_）" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
                     Text="3. 然后，启动游戏，点击多人游戏，添加服务器，按照以下信息进行填写：" />
-        <Image Source="http://f.rainplay.cn:49498/down/zJ7piIIQbWNV.jpg" Margin="0,10,0,10"  />
+        <Image Source="https://badnngdwstationcmcc.top/屏幕截图%202023-08-27%20220221.png" Margin="0,10,0,10"  />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="4. 之后点击完成，进入游戏后，在聊天框中输入：/reg 密码 确认密码" />
-        <local:MyHint Margin="0,10,0,15"  Text="举个例子：如果你设置的密码为123456（当然，这是不被允许设置的），那么您应该输入：/reg 123456 123456" IsWarn="False" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="5. 最后，登录：在聊天栏中输入 /l 你设置的密码 回车即可" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontWeight="Bold" FontSize="30"
-                    Text="正版登录" />
-        <TextBlock TextWrapping="Wrap" Margin="0,0,0,10" FontSize="16"
-                    Text="如果您是正版用户，可以按照上面教程来，进入服务器后输入：/premium 两次，并退出重进即可自动登录~" />
+                    Text="4. 之后点击完成，进入游戏即可" />
+        <local:MyHint Margin="0,10,0,15"  Text="起源选择只有部分汉化，请自己使用翻译软件进行选择" IsWarn="False" />
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="服务器命令列表" Margin="0,20,0,0" CanSwap="True" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/reg:用来注册，详见卡片：《如何进入服务器》" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/l:用来登录，详见卡片：《如何进入服务器》" />
-    <TextBlock FontSize="16" TextWrapping="Wrap" Margin="0,8,0,0"
-        Text="/home:回到你的出生点，如没有出生点，默认为所在世界的初始出生点有为你设置的出生点" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res系列命令：" />
-    <local:MyHint IsWarn="False" Height="35" Margin="0,10,0,0"
-    Text="此系列为领地命令，领地最多有10个，高度不小于3即可，使用木锄头进行选区"  />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res create &lt;领地名&gt; ：在木锄头选区完成之后使用指令进行创建领地" />
-    <TextBlock FontSize="16" Margin="0,8,0,0" TextWrapping="Wrap"
-        Text="/res remove &lt;领地名&gt; ：在自己的领地列表里面选择一个领地名称填写上去并删除领地" />
-    <local:MyHint IsWarn="True" Height="35" Margin="0,10,0,0"
-    Text="删除领地需要使用/res confirm 来二次确认，请注意，此操作不可逆，删了就是删了" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res tp &lt;领地名&gt; ：传送到自己已知填写上的领地名称" />
-    <local:MyHint IsWarn="False" Height="35" Margin="0,10,0,0"
-    Text="如无法tp，是因为你要tp的领地没有开放tp权限，或者仅单独设置了某些人的权限"  />
-    <TextBlock FontSize="16" Margin="0,8,0,0" TextWrapping="Wrap"
-        Text="/res set ：此命令分为两种设置方式，一种是在要设置权限的领地里面直接执行此命令，这个方法适合新手，适合不会打指令的人，因为他是GUI设置，看注释名称就知道是什么了，第二种是在要设置权限的领地里面在这个命令的基础上进行设置，如我要打开tp权限，那么命令为如下操作" />
-    <Border Margin="0,20,0,0" Padding="2,8" BorderThickness="1" Background="{DynamicResource ColorBrush5}" CornerRadius="6" VerticalAlignment="Top" BorderBrush="{DynamicResource ColorBrush3}" Opacity="0.7">
-      <Grid Margin="10,0,0,0">
-        <TextBlock x:Name="NewsHint" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" Foreground="#FF000000" Text="/res set tp true" />
-        <TextBlock x:Name="Hint2" FontWeight="Bold" FontSize="15" VerticalAlignment="Center" Foreground="#00000000" Text="/res set tp true" />
-      </Grid>
-    </Border>
-    <TextBlock FontSize="16" Margin="0,8,0,0" TextWrapping="Wrap"
-        Text="好了，这都是基本命令了，服务器开放私聊，我们有权利查看私聊内容，而且我们也会依法保证您的隐私(龙猫没写代码框，自己搞代码框是吧*悲" />
-    </StackPanel>
-</local:MyCard>
-
-<local:MyCard Title="服务器开放机器领地名列表" CanSwap="True" IsSwaped="True" Margin="0,20,0,0">
-    <StackPanel Margin="25,40,23,15">
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res tp xiaoheita :主人---sweetness 机器：小黑塔" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res tp zhurenta :主人---Badnng 机器：猪人塔" />
-    <TextBlock FontSize="16" Margin="0,8,0,0"
-        Text="/res tp gaosuronglu :主人---Badnng 机器：高速熔炉组" />
-    </StackPanel>
-</local:MyCard>
 
 <local:MyHint IsWarn="False" Text="公告维护者：Badnng，整活不是我搞" Margin="0,20,0,0" Height="40" />
 
